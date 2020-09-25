@@ -1,46 +1,13 @@
 /* Colors = blue #0065FC  light blue #DEEBFF grey background #F2F2 */
 
 * {
-	box-sizing: border-box;
-}
-* {
 	/*font-size: 100%; */
 	font-family: Raleway;
 }
-.input-container {
-	display: flex;
-	border: 1pt solid #f2f2f2;
-	border-radius: 11px;
-	justify-content: center;
-	align-content: center;
-	vertical-align: bottom;
-	width: 15%;
-	margin-bottom: 15px;
-}
-.input-field {
-	width: 70%;
-	padding: 10px;
-	outline: none;
-	border: none;
-}
-.input-field:focus {
-	border: 2px solid #0065FC;
-}
-.icon {
-	padding: 10px;
-	background: dodgerblue;
-	color: white;
-	min-width: 50px;
-	text-align: center;
-}
-/* Add a black background color to the top navigation */
-
 .topnav {
 	background-color: #F2f2f2;
 	overflow: hidden;
 }
-/* Style the links inside the navigation bar */
-
 .topnav a {
 	float: right;
 	color: black;
@@ -58,8 +25,35 @@
 /* Add a color to the active/current link */
 
 .topnav a.active {
-	background-color: #4CAF50;
+	background-color: #0065FC;
 	color: white;
+}
+.input-container {
+	display: flex;
+	border: 1pt solid #f2f2f2;
+	border-radius: 11px;
+	justify-content: center;
+	align-content: center;
+	vertical-align: bottom;
+	width: 25%;
+	margin-bottom: 15px;
+}
+.input-field {
+	width: 70%;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+.input-field:focus {
+	border: 2px solid #0065FC;
+}
+.icons {
+	color: #0065FC;
+    
+    overflow: hidden;
+}
+.fa-circle {
+	color: #DEEBFF;
 }
 .map-icon {
 	display: flex;
@@ -67,6 +61,11 @@
 	border-bottom-left-radius: 11px;
 	border-top-left-radius: 11px;
 	background-color: #F2F2F2;
+    
+}
+
+.fa-border{
+    border: none
 }
 .search-button {
 	border: none;
@@ -83,3 +82,21 @@
   font-size: 16px;
   cursor: pointer;
   text-align: center;  */
+
+.container-filters {
+	display: flex;
+	flex-direction: row;
+
+	font-weight: bold;
+    align-items: flex-start;
+   align-items: center;
+    justify-content: flex-start;
+}
+
+
+.box{
+    border: 2px solid #0065FC;
+    border-radius: 50px;
+    padding-right: 20px;
+    overflow: hidden;
+}

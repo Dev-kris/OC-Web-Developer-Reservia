@@ -14,16 +14,34 @@
 	<div class="topnav">
 		<img src="images/Reservia.svg"> <a href="#activities">Activities</a> <a class="active" href="#Accomodations">Accomodations</a>
 	</div>
-	<form action="/action_page.php">
+	<form action="">
 		<h2>Find a place for your dream vacation</h2>
 		<p>Downtown or in nature</p>
 		<div class="input-container">
-			<div class="map-icon">
-            <i class="fas fa-map-marker-alt">
-            </i> </div>
-            <input class="input-field" name="search" placeholder="Marseille, France" type="text"> 
-            <button class="search-button" type="submit">Search</button>
+			<span class="map-icon"><i class="fas fa-map-marker-alt"></i></span> <input class="input-field" name="search" placeholder="Marseille, France" type="text"> <button class="search-button" type="submit">Search</button>
 		</div>
 	</form>
+	<div class="container-filters">
+		
+        <div>
+			Filters
+		</div>
+		<div class="box">
+			<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i> <i class="fa fas fa-money-bill-wave fa-stack-1x icons"></i></span>
+			Low cost
+		</div>
+		<div class="box">
+			<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i> <i class="fa fas fa-child circle-icons fa-stack-1x icons"></i></span>
+			Family friendly
+		</div>
+		<div class="box">
+			<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i> <i class="fa fas fa-heart circle-icons fa-stack-1x icons"></i></span>
+			Romantic
+		</div>
+		<div class="box">
+			<span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-dog circle-icons fa-stack-1x icons"></i></span>
+			Pets allowed
+		</div>
+	</div>
 </body>
 </html>
