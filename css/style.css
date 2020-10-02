@@ -2,13 +2,13 @@
 
 * {
 	box-sizing: border-box;
+	font-family: Raleway;
 }
 .crop {
 	width: 260px;
 	height: 180px;
 	overflow: hidden;
 	border-radius: 25px;
-    
 }
 .crop img {
 	width: 400px;
@@ -20,24 +20,22 @@
 	max-height: 250px;
 	border-radius: 25px 0px 0px 25px;
 }
-* {
-	/*font-size: 100%; */
-	font-family: Raleway;
-}
 .topnav {
-	background-color: #F2f2f2;
 	overflow: hidden;
 }
 .topnav a {
 	float: right;
 	color: black;
-	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
 }
-/* Change the color of links on hover */
+/* does not work, ask why*/
 
+.topnav a.topnav-signup {
+	color: #0065FC;
+	font-weight: bold;
+}
 .topnav a:hover {
 	background-color: #f2f2f2;
 	color: black;
@@ -45,8 +43,8 @@
 /* Add a color to the active/current link */
 
 .topnav a.active {
-	background-color: #0065FC;
-	color: white;
+	border-top: 1px solid #0065FC;
+	color: #0065FC;
 }
 .input-container {
 	display: flex;
@@ -55,7 +53,7 @@
 	justify-content: center;
 	align-content: center;
 	vertical-align: bottom;
-	width: 25%;
+	width: 350px;
 	margin-bottom: 15px;
 }
 .input-field {
@@ -113,7 +111,16 @@
 	align-items: center;
 	width: 66%;
 }
-.box {
+.container-filters a {
+	text-decoration: none;
+}
+.container-filters a:hover {
+	margin-top: -10px;
+}
+.container-filters a:visited {
+	color: black;
+}
+.filter-border {
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -124,6 +131,7 @@
 }
 .container-main {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 .container-popular {
@@ -132,7 +140,6 @@
 	background: #F2F2F2;
 	border-radius: 25px;
 	margin-left: 40px;
-	align-items: left;
 }
 .accomodation-heading {
 	display: flex;
@@ -169,7 +176,7 @@
 	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
 	max-width: 260px;
 	padding: 3px;
-    margin: 10px;
+	margin: 10px;
 }
 .listings-popular {
 	display: flex;
@@ -185,6 +192,77 @@
 	max-width: 300px;
 	max-height: 150px;
 	padding: 3px;
+}
+.container-activities {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.row-activities {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	max-width: 1050px;
+}
+.footer {
+	width: 100vw;
+	display: block;
+	overflow: hidden;
+	padding: 70px 0;
+	background: #F2F2F2;
+}
+.inner-footer {
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+	height: 100%;
+}
+.inner-footer .footer-third {
+	width: calc(33% - 20px);
+	margin-right: 10px;
+	float: left;
+	height: 100%;
+}
+.inner-footer .footer-third:last-child {
+	margin-right: 0px;
+}
+.inner-footer .footer-third h1 {
+	font-size: 18px;
+	color: black;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.inner-footer .footer-third a {
+	font-size: 18px;
+	color: black;
+	display: block;
+	font-weight: 200;
+	width: 100%;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+@media(max-width:800px) {
+	.container-filters {
+		flex-direction: column;
+		justify-content: flex-start;
+		flex: 100%;
+		max-width: 100%;
+	}
+	.container-popular {
+		order: 0;
+	}
+	.container-accomodation {
+		order: 1;
+	}
+	.footer .inner-footer {
+		width: 100%;
+	}
+	.inner-footer .footer-third {
+		width: 100%;
+		margin-bottom: 30px;
+	}
 }
 .fa-info-circle {
 	color: #0065FC;

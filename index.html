@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="topnav">
-		<img src="images/Reservia.svg"> <a href="#activities">Activities</a> <a class="active" href="#Accomodations">Accomodations</a>
+		<img src="images/Reservia.svg"> <a class="topnav-signup" href="#">Sign Up</a> <a href="#activities">Activities</a> <a href="#accomodations">Accomodations</a>
 	</div>
 	<form action="">
 		<h2>Find a place for your dream vacation</h2>
@@ -24,89 +24,139 @@
 	<div class="container-filters">
 		<div>
 			Filters
-		</div>
-		<div class="box">
+		</div><a href="#">
+		<div class="filter-border">
 			<div class="icon-bg"></div><span class="fa-stack fa-lg"><i class="fa"></i> <i class="fa fas fa-money-bill-wave fa-stack-1x icons"></i></span> Low cost
-		</div>
-		<div class="box">
+		</div></a> <a href="#">
+		<div class="filter-border">
 			<div class="icon-bg"></div><span class="fa-stack fa-lg"><i class="fa"></i> <i class="fa fas fa-child fa-stack-1x icons"></i></span> Family friendly
-		</div>
-		<div class="box">
+		</div></a> <a href="#">
+		<div class="filter-border">
 			<div class="icon-bg"></div><span class="fa-stack fa-lg"><i class="fa"></i> <i class="fa fas fa-heart fa-stack-1x icons"></i></span> Romantic
-		</div>
-		<div class="box">
+		</div></a> <a href="#">
+		<div class="filter-border">
 			<div class="icon-bg"></div><span class="fa-stack fa-lg"><i class="fa"></i> <i class="fa fa-dog fa-stack-1x icons"></i></span> Pets allowed
-		</div>
+		</div></a>
 	</div>
-	<p><i class="fas fa-info-circle"></i> More than 500 accomodations are available in this city.</p>
-	<div class="container-main">
-		<section class="container-accomodation">
-			<h1 class="accomodation-heading">Accomodations in Marseille</h1>
+	<main id="accomodations">
+		<p><i class="fas fa-info-circle"></i> More than 500 accomodations are available in this city.</p>
+		<div class="container-main">
+			<section class="container-accomodation">
+				<h1 class="accomodation-heading">Accomodations in Marseille</h1>
+				<figure class="listings">
+					<img class="crop" src="images/auberge-small.jpg">
+					<figcaption>
+						Auberge la Canbière<br>
+						Night starting at 25€<br>
+						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i>
+					</figcaption>
+				</figure>
+				<figure class="listings">
+					<img class="crop" src="images/hotel-du-port-medium.jpg">
+					<figcaption>
+						Auberge la Canbière<br>
+						Night starting at 25€<br>
+						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+					</figcaption>
+				</figure>
+				<figure class="listings">
+					<img class="crop" src="images/auberge-small.jpg">
+					<figcaption>
+						Auberge la Canbière<br>
+						Night starting at 25€<br>
+						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i>
+					</figcaption>
+				</figure>
+				<figure class="listings">
+					<img class="crop" src="images/auberge-small.jpg">
+					<figcaption>
+						Auberge la Canbière<br>
+						Night starting at 25€<br>
+						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i><i class="fas fa-star" style="color:darkgrey"></i>
+					</figcaption>
+				</figure>
+				<figure class="listings">
+					<img class="crop" src="images/auberge-small.jpg">
+					<figcaption>
+						Auberge la Canbière<br>
+						Night starting at 25€<br>
+						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i>
+					</figcaption>
+				</figure>
+				<figure class="listings">
+					<img class="crop" src="images/hotel-chez-amina-medium.jpg">
+					<figcaption>
+						Hotel Chez Amina<br>
+						Night starting at 25€<br>
+						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+					</figcaption>
+				</figure>
+				<h3 class="accomodation-heading">Show more</h3>
+			</section>
+			<section class="container-popular">
+				<h1 class="popular-heading">Most popular</h1>
+				<figure class="listings-popular">
+					<img class="img-popular" src="images/auberge-small.jpg"> Morning Sun Hotel<br>
+					Starting at 125
+				</figure>
+				<figure class="listings-popular">
+					<img class="img-popular" src="images/auberge-small.jpg"> Morning Sun Hotel<br>
+					Starting at 125
+				</figure>
+				<figure class="listings-popular">
+					<img class="img-popular" src="images/auberge-small.jpg"> Morning Sun Hotel<br>
+					Starting at 125€
+				</figure>
+			</section>
+		</div>
+	</main>
+	<h1 class="activities-heading" id="activities">Activities in Marseille</h1>
+	<section class="container-activities">
+		<div class="row-activities">
 			<figure class="listings">
-				<img class="crop" src="images/auberge-small.jpg">
+				<img class="crop" src="">
 				<figcaption>
 					Auberge la Canbière<br>
-					Night starting at 25€<br>
-					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i>
 				</figcaption>
 			</figure>
 			<figure class="listings">
-				<img class="crop" src="images/hotel-du-port-medium.jpg">
+				<img class="crop" src="">
 				<figcaption>
 					Auberge la Canbière<br>
-					Night starting at 25€<br>
-					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 				</figcaption>
 			</figure>
 			<figure class="listings">
-				<img class="crop" src="images/auberge-small.jpg">
+				<img class="crop" src="">
 				<figcaption>
 					Auberge la Canbière<br>
-					Night starting at 25€<br>
-					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i>
 				</figcaption>
 			</figure>
 			<figure class="listings">
-				<img class="crop" src="images/auberge-small.jpg">
+				<img class="crop" src="">
 				<figcaption>
 					Auberge la Canbière<br>
-					Night starting at 25€<br>
-					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i><i class="fas fa-star" style="color:darkgrey"></i>
 				</figcaption>
 			</figure>
 			<figure class="listings">
-				<img class="crop" src="images/auberge-small.jpg">
+				<img class="crop" src="">
 				<figcaption>
 					Auberge la Canbière<br>
-					Night starting at 25€<br>
-					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color:darkgrey"></i>
 				</figcaption>
 			</figure>
-			<figure class="listings">
-				<img class="crop" src="images/hotel-chez-amina-medium.jpg">
-				<figcaption>
-					Hotel Chez Amina<br>
-					Night starting at 25€<br>
-					<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-				</figcaption>
-			</figure>
-			<h3 class="accomodation-heading">Show more</h3>
-		</section>
-		<section class="container-popular">
-			<h1 class="popular-heading">Most popular</h1>
-			<figure class="listings-popular">
-				<img class="img-popular" src="images/auberge-small.jpg"> Morning Sun Hotel<br>
-				Starting at 125
-			</figure>
-			<figure class="listings-popular">
-				<img class="img-popular" src="images/auberge-small.jpg"> Morning Sun Hotel<br>
-				Starting at 125
-			</figure>
-			<figure class="listings-popular">
-				<img class="img-popular" src="images/auberge-small.jpg"> Morning Sun Hotel<br>
-				Starting at 125€
-			</figure>
-		</section>
+		</div>
+	</section>
+	<div class="footer">
+		<div class="inner-footer">
+			<div class="footer-third">
+				<h1>About</h1><a href="#">Site Map</a> <a href="#">General Terms and Conditions</a> <a href="#">Data and Privacy</a>
+			</div>
+			<div class="footer-third">
+				<h1>Our Accomodations</h1><a href="#">Quality Assessment</a> <a href="#">You have a hotel?</a>
+			</div>
+			<div class="footer-third">
+				<h1>Assistance</h1><a href="#">Help Desk</a> <a href="#">Contact Us</a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
