@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea201d53-42b4-4d33-ba0e-bc973e631d0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -22,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../alternatives/Reservia-master/index.html" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,6 +42,7 @@
       <workItem from="1600879252617" duration="5000" />
       <workItem from="1601136318574" duration="16000" />
       <workItem from="1601360971439" duration="1836000" />
+      <workItem from="1601740587328" duration="201000" />
     </task>
     <servers />
   </component>
@@ -54,6 +54,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600710762257" />
+    <state x="756" y="332" key="FileChooserDialogImpl" timestamp="1601740619001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="332" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601740619001" />
     <state width="1362" height="328" key="GridCell.Tab.0.bottom" timestamp="1600710828581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
