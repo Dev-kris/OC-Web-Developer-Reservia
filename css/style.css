@@ -343,7 +343,7 @@ a:visited {
 @media (max-width:925px) {
 	.container-filters {
 		flex-direction: column;
-		justify-content: flex-start;
+		align-items: flex-start;
 		flex: 100%;
 		max-width: 100%;
 	}
@@ -379,19 +379,32 @@ a:visited {
 		margin-right: 10px;
 	}
 	.accomodations-container {
+        order: 1;
 		grid-template-columns: 1fr;
+        background-color: white;
 	}
 	.popular-container {
+        order: 0;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
+        margin: 0;
+        background-color: white;
+        
+        
 	}
 	.popular-listings-align-text {
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	}
+    .accomodations-container, .popular-container {
+        padding: 0;
+    }
 	.accomodations-and-popular-container {
+        display: flex;
+        flex-direction: column;
 		grid-column-gap: 2rem;
 		grid-template-rows: auto;
+        padding: 0;
 	}
 	.activity-listing:hover {
 		margin-top: 0px;
@@ -401,5 +414,7 @@ a:visited {
 		grid-row-gap: 2rem;
 		grid-template-columns: 1fr;
 		grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+        margin: 0;
 	}
+    
 }
