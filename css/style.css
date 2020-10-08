@@ -372,12 +372,18 @@ a:visited {
 @media (max-width: 650px) {
 	.container-filters a:hover {
 		margin-top: 0px;
-		margin-right: 10px;
+		margin-left: 10px;
 	}
 	.accomodations-listings:hover {
 		margin-top: 0px;
 		margin-right: 10px;
 	}
+    .accomodations-listings{
+        box-shadow: 0 0 2px black;
+    }
+    .activity-listing{
+        box-shadow: 0 0 2px black;
+    }
 	.accomodations-container {
         order: 1;
 		grid-template-columns: 1fr;
@@ -389,12 +395,10 @@ a:visited {
 		grid-template-rows: 1fr;
         margin: 0;
         background-color: white;
-        
-        
 	}
 	.popular-listings-align-text {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
     .accomodations-container, .popular-container {
         padding: 0;
