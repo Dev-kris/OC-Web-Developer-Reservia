@@ -5,10 +5,10 @@
 	font-family: Raleway;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
-a:visited{
-    color: black;
+a:visited {
+	color: black;
 }
 .body-format {
 	max-width: 1440px;
@@ -122,14 +122,11 @@ a:visited{
 	padding-right: 20px;
 	margin-left: 10px;
 }
-
 .accomodations-container, .popular-container {
 	background-color: #F2F2F2;
 	border-radius: 1.5rem;
 	padding: 2rem;
-    
 }
-
 .accomodations-and-popular-container {
 	display: grid;
 	grid-column-gap: 2rem;
@@ -140,14 +137,12 @@ a:visited{
 	grid-template-columns: 3fr 3fr 3fr;
 	grid-column-gap: 2rem;
 	grid-row-gap: 2rem;
-    
 }
 .accomodations-title {
 	grid-column: 1 / -1;
 }
 .accomodations-title-margins {
 	margin: 0;
-    
 }
 .accomodations-listings {
 	background-color: white;
@@ -156,11 +151,9 @@ a:visited{
 	box-shadow: 0 0 4px black;
 	box-sizing: border-box;
 	height: 100%;
-    
 }
 .accomodations-listings:hover {
 	margin-top: -10px;
-    
 }
 .accomodations-listings-margin {
 	margin: 0;
@@ -182,7 +175,6 @@ a:visited{
 .listings-format-stars {
 	margin: 0 .75rem .25rem .75rem;
 }
-
 .popular-container {
 	display: grid;
 	grid-row-gap: 2rem;
@@ -349,8 +341,6 @@ a:visited{
 	}
 }
 @media (max-width:925px) {
-    
-    
 	.container-filters {
 		flex-direction: column;
 		justify-content: flex-start;
@@ -361,10 +351,10 @@ a:visited{
 		grid-template-columns: 1fr;
 		grid-template-rows: auto 1fr;
 	}
-    .popular-listings-align-text{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+	.popular-listings-align-text {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
 	.activity-container {
 		grid-row-gap: 2rem;
 		grid-template-columns: repeat(2, 1fr);
@@ -376,19 +366,18 @@ a:visited{
 	.inner-footer .footer-third {
 		width: 100%;
 		margin-bottom: 30px;
-        margin-left: 1rem;
+		margin-left: 1rem;
 	}
 }
 @media (max-width: 650px) {
-    .container-filters a:hover {
-	margin-top: 0px;
-    margin-right: 10px;
-}
-    .accomodations-listings:hover {
-	margin-top: 0px;
-        margin-right: 10px;
-    
-}
+	.container-filters a:hover {
+		margin-top: 0px;
+		margin-right: 10px;
+	}
+	.accomodations-listings:hover {
+		margin-top: 0px;
+		margin-right: 10px;
+	}
 	.accomodations-container {
 		grid-template-columns: 1fr;
 	}
@@ -396,18 +385,18 @@ a:visited{
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
 	}
-    .popular-listings-align-text{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+	.popular-listings-align-text {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
 	.accomodations-and-popular-container {
 		grid-column-gap: 2rem;
 		grid-template-rows: auto;
 	}
-    .activity-listing:hover {
-	margin-top: 0px;
-    margin-right: 10px;
-}
+	.activity-listing:hover {
+		margin-top: 0px;
+		margin-right: 10px;
+	}
 	.activity-container {
 		grid-row-gap: 2rem;
 		grid-template-columns: 1fr;
