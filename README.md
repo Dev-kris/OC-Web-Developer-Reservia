@@ -1,4 +1,4 @@
-# Web-Developer-Project2
+# Open Classrooms Reservia Project
 This is the second project in the web developer path by OpenClassrooms
 
 The goal of this project is to creat a basic HTML/CSS website from a picture.
